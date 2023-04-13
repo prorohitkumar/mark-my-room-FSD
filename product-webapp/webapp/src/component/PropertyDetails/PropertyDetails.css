@@ -1,0 +1,339 @@
+.slider{
+    position: relative;
+    height:50vh;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 50px;
+    justify-content: center;  
+    align-items: center;
+  }
+  .image{
+    width: 800px;
+    height: 300px;
+  }
+  
+  .slide{
+    opacity: 0;
+    transition-duration: 1s ease;
+  }
+  
+  .slide.active{
+    opacity: 1;
+    transition-duration: 1s;
+    transform: scale(1.08);
+  }
+  
+  .right-arrow{
+    position:absolute;
+    top: 40%;
+    right:10px;
+    font-size: 5rem;
+    color: black;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .left-arrow{
+    position:absolute;
+    top: 40%;
+    left: 10px;
+    font-size: 5rem;
+    color: black;
+  cursor: pointer;
+  user-select: none;
+  }
+  
+  .title{
+    box-shadow: 0 4px 8px 0 rgba(241, 239, 239, 0.2);
+      height: 70px;
+      margin-top: 10px;
+      margin-left: 10%;
+      margin-right: 10%;
+      justify-content: center;
+      align-items: center;
+      background-color: black;
+      display: flex;
+  }
+  
+  .propertyTitle{
+    color: white;
+    font-size: 30px;
+    float: left;
+    width: 95%;
+    margin-left:4%;
+    line-height: 60px;
+    padding: 0 0px;
+    font-weight: bold;
+  }
+  
+  .share{
+   float: right;
+   margin-right: 10px;
+   margin-top: 14px;
+   color: white;
+   font-size: 35px;
+   justify-content: center;
+  
+  
+  }
+  
+  
+  .left {
+    box-shadow: 0 0px 8px 0 black;
+    float: left;
+    border-radius: 15px;
+    margin-left: 10px;
+    width: auto;
+    height: auto;
+    margin-right: 20px;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  
+  }
+  
+  .postedby{
+    margin: 0;
+    justify-self: center;
+    }
+  
+    .left-blocks{
+      box-shadow: 0 0px 8px 0 black;
+      border-radius: 15px;
+      width: auto;
+      height: auto;
+      display: flex;
+      margin: 10px;
+      margin-bottom: 10px;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+  .property-discription{
+    box-shadow: 0 0px 8px 0 black;
+    border-radius: 15px;
+    width: auto;
+    max-width: 332px;
+    height: auto;
+    display: flex;
+    margin: 10px;
+    margin-bottom: 10px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+  
+  }
+  .avtar{
+    width: 140px;
+    height: 140px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 0px;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  
+  
+  .right{
+    box-shadow: 0 0px 4px 0 black;
+    border-radius: 15px;
+    float: right;
+    width: 900px;
+    height: auto;
+    margin-right: 20px;
+    margin-bottom: 5px;
+  }
+  .buttons{
+    float: right;
+    margin-bottom: 20px;
+    width: 850px;
+    height: 85px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+  }
+  .booknow{
+    margin: 15px;
+    background-color: rgb(255, 74, 104);
+    width: 200px;
+    height: 60px;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration:solid;
+    display: inline-block;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .chat{
+    background-color: blue;
+    width: 200px;
+    height: 60px;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    text-align: center;
+    text-decoration:solid;
+    display: inline-block;
+    font-size: 35px;
+    margin: 55px;
+    cursor: pointer;
+  }
+  
+  .property-details{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-wrap: wrap;
+  }
+  
+  .item{
+    box-shadow: 0 4px 8px 0 black;
+    border-radius: 15px;
+    margin: 8px;
+    margin-left: 5px;
+    width: 415px;
+    height: 70px;
+    padding:3px;
+    justify-content: center;
+    align-items: center; 
+  }
+  
+  .location
+  {
+    box-shadow: 0 4px 8px 0 black;
+    border-radius: 15px;
+    margin: 8px;
+    width: 95%;
+    height: 70px;
+    padding:3px;
+    justify-content:left;
+    align-items:flex-start;
+  
+  }
+  
+  .item-element{
+    margin: 2px;
+    font-size: 25px;
+    color: black;
+    padding: 1px;
+    align-items: center;
+  }
+  
+  .text{
+    font-size: 30px;
+    color: black;
+    text-decoration: solid;
+    padding: 1px;
+  
+  }
+  
+  
+  .property-discription-text
+  {
+    font-size: 21px;
+    text-decoration: solid;
+   margin-top: -20px;
+    color: black;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .places-nearby-list{
+    display: flex;
+    justify-content: center;
+     align-items: center;
+     margin-bottom: 4px;
+  }
+  
+  .places-nearby-list-item{
+    display: flex;
+    box-shadow: 0 4px 8px 0 black;
+    border-radius: 15px;
+    width: 144px;
+    height: 35px;
+    margin: 5px;
+    padding: 3px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .places-nearby-list-item-icons{
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: black;
+    text-decoration: solid;
+    padding: 1px;
+    margin: 2px;
+  }
+  .amenities{
+    box-shadow: 0 0px 8px 0 black;
+    border-radius: 15px;
+    width: 98%;
+    height: auto;
+    display: flex;
+    margin: 10px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  
+  .amenities-list{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 99%;
+    display: flex;
+     align-items:flex-start;
+     justify-content: space-between;
+     flex-direction: row;
+     flex-wrap: wrap;
+  
+  }
+  .amenities-list-item{
+    box-shadow: 0 4px 8px 0 black;
+    border-radius: 15px;
+    width: 160px;
+    height: 30px;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding: 3px;
+    float: left;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .amenities-list-item-element{
+    font-size: 16px;
+    color: black;
+    text-decoration: solid;
+    padding: 1px;
+    justify-self: center;
+  }
+  .checkbox{
+    color: green;
+    margin-right: 2px;
+    font-size: 20px;
+  }
+  
+  .crossbox{
+    color: red;
+    margin-right: 2px;
+    font-size: 20px;
+  
+  }
+  
+  .icon{
+    margin-left: 1px;
+    margin-right: 1px;
+    font-size: 25px;
+  }
